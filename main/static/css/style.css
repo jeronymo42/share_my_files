@@ -1,0 +1,34 @@
+body {
+    background-image: url("/static/img/bg.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #a52a2a;
+    margin-top: 15%;
+}
+
+.container {
+    margin: 10px auto;
+    text-align: center;
+    width: 35%;
+    background-color: #84520166;
+    border-radius: 20px;
+    border-style: dashed;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 2% 0;
+
+}
+input[type='submit']:hover {
+    background-color: blueviolet;
+} 
